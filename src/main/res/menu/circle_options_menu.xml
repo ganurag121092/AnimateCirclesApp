@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mode"
+        android:title="@string/mode"
+        app:showAsAction="ifRoom|withText">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/draw_circle"
+                android:title="@string/drawCircles"
+                android:checked="true"/>
+            <item android:id="@+id/delete_circle"
+                android:title="@string/deleteCircles"
+                />
+            <item android:id="@+id/move_circle"
+                android:title="@string/moveCircles"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/color"
+        android:title="@string/color"
+        app:showAsAction="always|withText">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/blackColor"
+                android:title="@string/black"
+                android:checked="true"/>
+            <item android:id="@+id/redColor"
+                android:title="@string/red"/>
+            <item android:id="@+id/greenColor"
+                android:title="@string/green" />
+            <item android:id="@+id/blueColor"
+                android:title="@string/blue" />
+            </group>
+        </menu>
+    </item>
+</menu>
+
+

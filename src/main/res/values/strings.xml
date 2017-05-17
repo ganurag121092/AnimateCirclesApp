@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CirclesApp</string>
+
+    <string name="mode">MODE</string>
+    <string name="color">COLOR</string>
+
+    <string name="drawCircles">DRAW</string>
+    <string name="deleteCircles">DELETE</string>
+    <string name="moveCircles">MOVE</string>
+
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="black">BLACK</string>
+</resources>
